@@ -1,0 +1,31 @@
+# Data (download instructions in data/README.md; the master table is rebuilt by notebooks/02)
+data/raw/
+data/processed/*.parquet
+
+# Brief from the mentorship (not versioned)
+Projeto_05_Credit_Risk_Model_Stability_LAYOUT.docx.pdf
+
+# Kaggle credentials
+kaggle.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Caches
+.pytest_cache/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db

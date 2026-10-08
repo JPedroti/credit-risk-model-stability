@@ -1,0 +1,11 @@
+check,passed,detail
+1 case_id = 1 linha,True,"1,526,659 linhas, 1,526,659 case_id distintos"
+colunas-chave presentes,True,ausentes: nenhuma
+mesma população da train_base,True,"0 casos perdidos, 0 casos criados"
+chaves e target idênticos à train_base,True,0 casos com valor alterado
+target binário e sem nulos,True,"valores: [0, 1]"
+split definido para todos os casos,True,"valores: ['OOT', 'TEST', 'TRAIN']"
+OOT = exatamente os meses do enunciado,True,0 casos fora da regra
+nenhuma feature totalmente nula,True,nenhuma
+nenhuma feature constante,True,nenhuma
+nenhuma data bruta entre as features,True,nenhuma
